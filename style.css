@@ -1,16 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  color: #ffffff;
 }
 .fontFamily {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/*  Navbar   */
 nav {
   display: flex;
   justify-content: space-between;
   padding: 2px 100px;
   background-color: #2c1d16;
+  color: #ffffff;
 }
 ul {
   display: flex;
@@ -30,4 +32,45 @@ nav span {
 }
 nav p {
   font-size: 1.5rem;
+}
+/*  Hero   */
+.hero {
+  text-align: center;
+  color: #ffffff;
+  padding: 200px 5vw;
+  background-image: url(/imgs/coffi.jpg);
+}
+.hero h1 {
+  font-size: 3rem;
+  width: 50%;
+  margin: auto;
+  font-weight: 900;
+}
+.hero p {
+  font-size: 1.3rem;
+}
+
+.btns {
+  margin: 50px;
+}
+.hero .btn1,
+.hero .btn2 {
+  padding: 20px 50px;
+  color: #000000;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+.hero .btn1 {
+  background-color: #9f7656;
+}
+.hero .btn2 {
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.hero .btn2:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
