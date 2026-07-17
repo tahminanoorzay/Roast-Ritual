@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #640909;
+  color: #f0f8ff;
+}
+nav {
+  justify-content: space-between;
+}
