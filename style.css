@@ -131,6 +131,7 @@ hr {
   border-radius: 10px;
   width: 20%;
   overflow: hidden;
+  box-shadow: 3px 3px 20px #ada6a6;
 }
 .firstP {
   color: #9f7656;
