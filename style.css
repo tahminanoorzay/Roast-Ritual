@@ -159,3 +159,41 @@ hr {
   border-radius: 10px;
   font-weight: bold;
 }
+/*  Bottom   */
+.bottom-section {
+  background-color: #1d140f;
+  padding: 50px;
+  text-align: center;
+  color: #dcdcdc;
+}
+.gift-img {
+  background: transparent;
+}
+.bottom-section h2 {
+  color: #ffffff;
+}
+.bottom-section p {
+  width: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+/*  Footer   */
+.footer-section {
+  background-color: #2c1d16;
+  padding: 10px 5vw 30px 5vw;
+  text-align: center;
+}
+.footer-section ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-section li {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-section a:hover {
+  color: #c29c78;
+}
+.footer-section p {
+  color: #ada6a6;
+}
