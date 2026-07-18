@@ -122,6 +122,40 @@ hr {
 }
 .cards {
   display: flex;
-  padding: 10px;
-  margin: 10px;
+  gap: 30px;
+  justify-content: center;
+  margin: 30px;
+}
+.cards .card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 20%;
+  overflow: hidden;
+}
+.firstP {
+  color: #9f7656;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+.cards img {
+  width: 100%;
+}
+.cards .card .card-texts {
+  padding: 20px;
+}
+.card .cost {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  border-top: 2px solid #e4b990;
+  padding-top: 20px;
+}
+.card a {
+  background-color: #c29c78;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  font-weight: bold;
 }
