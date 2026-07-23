@@ -27,13 +27,24 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+  position: relative;
 }
 nav a:hover {
   color: #e4b990;
 }
 nav a::after {
   content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
   height: 2px;
+  background-color: #e4b990;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
 nav span {
   color: #e4b990;
@@ -86,7 +97,8 @@ nav p {
   color: #000000;
 }
 .btn:hover {
-  animation: btnAnimation 2s forwards;
+  transform: translateY(-5px) scale(1.1);
+  transition: 0.2s;
 }
 
 /*  Uncompromising Standards   */
@@ -257,14 +269,6 @@ hr {
   100% {
     opacity: 1;
     transform: translateY(-20px) scale(1.1);
-  }
-}
-@keyframes btnAnimation {
-  0% {
-    transform: translateY(0px) scale(1);
-  }
-  100% {
-    transform: translateY(-5px) scale(1.1);
   }
 }
 
