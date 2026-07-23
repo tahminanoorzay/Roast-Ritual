@@ -10,7 +10,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 5px 100px;
   background-color: #2c1d16;
   color: #ffffff;
 }
@@ -179,8 +179,28 @@ hr {
   text-align: center;
   color: #dcdcdc;
 }
-.gift-img {
-  background: transparent;
+.steam {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.steam span {
+  width: 5px;
+  height: 60px;
+  background: linear-gradient(to top, transparent, #e4b990, transparent);
+  animation-name: steamAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.steam span:nth-child(2) {
+  animation-delay: 2s;
+}
+.steam span:nth-child(3) {
+  animation-delay: 3s;
+}
+.bottom-section i {
+  font-size: 80px;
+  color: #e4b990;
 }
 .bottom-section h2 {
   color: #ffffff;
@@ -215,5 +235,19 @@ hr {
 @keyframes heroAnimation {
   0% {
     transform: translate(0, 200px);
+  }
+}
+
+@keyframes steamAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px);
   }
 }
