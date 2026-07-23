@@ -148,6 +148,10 @@ hr {
   overflow: hidden;
   box-shadow: 3px 3px 20px #ada6a6;
 }
+.cards .card:hover {
+  transform: translateY(-10px) scale(1.05);
+  transition: 1s;
+}
 .firstP {
   color: #9f7656;
   text-transform: uppercase;
@@ -174,6 +178,15 @@ hr {
   font-size: 0.8rem;
   border-radius: 10px;
   font-weight: bold;
+  display: inline-block;
+}
+.card a:hover {
+  transform: translateY(-5px) scale(1.1);
+  transition: 1s;
+}
+.card img:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
 /*  Bottom   */
 .bottom-section {
